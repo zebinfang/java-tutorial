@@ -27,8 +27,9 @@
 ![](./assets/classes-access.gif)
 
 > 下面这个表，我看了半天都没看懂到底怎么看出来关系是怎么看的
+> 对 Alpha 类增加修饰符，可以看到以下关系
 
-| 修饰符     | Alpha | Beta | AlphaSub | Gamma |
+| 修饰符     | Alpha(类） | Beta（同一包中的子类） | AlphaSub（不同包中的子类） | Gamma（所有类） |
 |------------|-------|------|----------|-------|
 | public     | ✔     | ✔    | ✔        | ✔     |
 | protected  | ✔     | ✔    | ✔        | ×     |
